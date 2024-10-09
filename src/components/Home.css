@@ -1,0 +1,52 @@
+.home-container {
+    height: 100vh;
+    background-image: url('C:\Users\hemas\OneDrive\Desktop\StudentProjectManagement\management-system\src\asserts\WSS_Roundtable_header_blog.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem 1rem; /* Reduced padding */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px; /* Set a fixed height for a smaller navbar */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* Stretch the items across the navbar */
+    margin: 0; /* Remove default margin */
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem; /* Adjust font size to match the smaller navbar */
+}
+
+/* Move the content upwards */
+.content {
+    text-align: center;
+    color: white;
+    transform: translateY(-50px); /* Move content upwards */
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.content p {
+    font-size: 1.5rem;
+}

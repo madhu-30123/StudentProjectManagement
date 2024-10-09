@@ -1,0 +1,47 @@
+/* Shared styles for login and signup pages */
+.page-container {
+    height: 100vh;
+    background-image: url('C:\Users\hemas\OneDrive\Desktop\StudentProjectManagement\management-system\src\asserts\WSS_Roundtable_header_blog.jpg'); /* Relative path to background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 1rem;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #555;
+}

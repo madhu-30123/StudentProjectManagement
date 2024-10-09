@@ -1,0 +1,144 @@
+/* src/css/AdminDashboard.css */
+
+/* Full-height vertical navbar */
+.admin-dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.vertical-navbar {
+    width: 200px;
+    background-color: #343a40;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: 1px solid #ccc;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.vertical-navbar h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.vertical-navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vertical-navbar li {
+    margin-bottom: 15px;
+}
+
+.vertical-navbar li a,
+.logout-button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.logout-button:hover,
+.vertical-navbar li a:hover {
+    color: #007bff;
+}
+
+/* Content styling */
+.admin-dashboard-content {
+    margin-left: 200px;
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Smaller dialog box style for forms */
+.dialog-box {
+    width: 300px; /* Set smaller width for the dialog box */
+    margin: 0 auto;
+    padding: 15px; /* Reduce padding to match smaller size */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dialog-box h2 {
+    text-align: center;
+    color: #333;
+    font-size: 18px; /* Slightly smaller font size */
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Reduce gap between form elements */
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"], 
+textarea {
+    width: 100%;
+    padding: 6px; /* Reduce padding for smaller input fields */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px; /* Reduce button padding */
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .vertical-navbar {
+        width: 150px;
+    }
+    
+    .admin-dashboard-content {
+        margin-left: 150px;
+    }
+
+    .dialog-box {
+        width: 90%;
+    }
+}

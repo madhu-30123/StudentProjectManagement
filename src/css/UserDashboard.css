@@ -1,0 +1,55 @@
+/* src/css/UserDashboard.css */
+
+.dashboard-container {
+    display: flex; /* Use flexbox for layout */
+    height: 100vh; /* Set height to full viewport height */
+}
+
+.vertical-navbar {
+    width: 200px; /* Set the width of the navbar */
+    background-color: #003366; /* Change background color to dark blue */
+    padding: 20px; /* Padding for the navbar */
+    border-right: 1px solid #ccc; /* Right border for separation */
+    height: 100%; /* Make navbar full height */
+}
+
+.vertical-navbar h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center align heading */
+    color: #ffffff; /* Change heading text color to white */
+}
+
+.vertical-navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.vertical-navbar li {
+    margin-bottom: 15px; /* Space between menu items */
+}
+
+.vertical-navbar li a,
+.logout-button {
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* Change text color to white */
+    font-size: 16px; /* Font size */
+    display: block; /* Make it a block element */
+    padding: 10px; /* Add padding for clickable area */
+    width: 100%; /* Make the button fill the width */
+    text-align: left; /* Align text to the left */
+    border: none; /* Remove border for button */
+    background: none; /* No background for button */
+    cursor: pointer; /* Pointer cursor for button */
+    border-radius: 4px; /* Optional: Rounded corners */
+}
+
+.vertical-navbar li a:hover,
+.logout-button:hover {
+    background-color: #00509e; /* Change background color on hover */
+    color: #ffffff; /* Keep text color white on hover */
+}
+
+.dashboard-content {
+    padding: 20px; /* Padding for the content */
+    flex-grow: 1; /* Make the content fill the available space */
+}
