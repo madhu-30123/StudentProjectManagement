@@ -1,7 +1,7 @@
 /* Shared styles for login and signup pages */
 .page-container {
     height: 100vh;
-    background-image: url('C:\Users\hemas\OneDrive\Desktop\StudentProjectManagement\management-system\src\asserts\WSS_Roundtable_header_blog.jpg'); /* Relative path to background image */
+    background-image: url('C:\Users\Madhu sri\OneDrive\Desktop\StudentProjectManagement\management-system\src\asserts\WSS_Roundtable_header_blog.jpg'); /* Relative path to background image */
     background-size: cover;
     background-position: center;
     display: flex;
