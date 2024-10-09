@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/madhu-30123/github.io/StudentProjectManagement/static/css/main.49cadc9a.css",
+    "main.js": "/madhu-30123/github.io/StudentProjectManagement/static/js/main.ba1d214d.js",
+    "static/js/453.f33dabe8.chunk.js": "/madhu-30123/github.io/StudentProjectManagement/static/js/453.f33dabe8.chunk.js",
+    "static/media/WSS_Roundtable_header_blog.jpg": "/madhu-30123/github.io/StudentProjectManagement/static/media/WSS_Roundtable_header_blog.0f312c6a49d1dac8d44e.jpg",
+    "index.html": "/madhu-30123/github.io/StudentProjectManagement/index.html",
+    "main.49cadc9a.css.map": "/madhu-30123/github.io/StudentProjectManagement/static/css/main.49cadc9a.css.map",
+    "main.ba1d214d.js.map": "/madhu-30123/github.io/StudentProjectManagement/static/js/main.ba1d214d.js.map",
+    "453.f33dabe8.chunk.js.map": "/madhu-30123/github.io/StudentProjectManagement/static/js/453.f33dabe8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49cadc9a.css",
+    "static/js/main.ba1d214d.js"
+  ]
+}
